@@ -1,5 +1,4 @@
 // Question 16: More Guests: You've found a bigger dinner table, so there's room for more guests.
-
 let guest:string[] = ["rehman","azeeem","hameed"]
 console.log(guest)  
 guest.push("hassan")   // adding item in end of the array
