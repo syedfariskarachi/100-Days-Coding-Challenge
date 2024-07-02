@@ -7,6 +7,7 @@ if (alien_color == "black") {
 }
 
 // Question 26: Alien Colors #2: Choose a color for an alien, then write an if-else chain.
+
 let alien_color_2 = "blue";
 //run  if block
 if (alien_color_2 == "blue") {

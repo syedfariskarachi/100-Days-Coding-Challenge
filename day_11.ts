@@ -7,6 +7,7 @@ if (user.length === 0) {
   console.log(`Today, ${user.length} users have created new accounts`);
 }
 
+
 // Question 32: Checking Usernames: Ensure uniqueness in usernames.
 
 let users: string[] = ["user1", "user2", "Faris", "user3", "user4"];

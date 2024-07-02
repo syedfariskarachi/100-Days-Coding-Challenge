@@ -38,4 +38,5 @@ let car: string[] = ["Toyota", "Audi", "BMW", "Honda"];
 console.log(car.includes("Ferari")); //false
 console.log(car.includes("BMW")); //true
 //test item is not in a array
+
 console.log(!car.includes("Bently")); //true

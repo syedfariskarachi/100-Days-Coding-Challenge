@@ -16,6 +16,7 @@ if (age <= 3) {
   console.log("You are a Senior");
 }
 
+
 // Question 29: Favorite Fruit: Create an array for your favorite fruits and check if certain fruits are included.
 
 let fav_fruits: string[] = ["Apple", "Mango", "Banana", "Strawberry"];

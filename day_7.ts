@@ -36,6 +36,7 @@ let student = {
   class: "xi",
   roll_number: 90665,
 };
+
 console.log(
   `Student name: ${student.name}\nStudent age: ${student.age}\nclass: ${student.class}\nroll number: ${student.roll_number}`
 );

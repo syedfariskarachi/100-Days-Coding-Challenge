@@ -14,8 +14,7 @@ guest.forEach((guest) => {
 while (guest.length > 2) {
   //check guest array untill its not equal to 2
   let remove_guest = guest.pop(); // remove array items untill items not equal to 2
-  console.log(`sorry, ${remove_guest} i can't invite you for dinner. `);
-}
+  console.log(`sorry, ${remove_guest} i can't invite you for dinner. `);}
 guest.forEach((guest) => {
   console.log(`Asalam o alaikom ${guest}, you are still invited to dinner.`);
 });
