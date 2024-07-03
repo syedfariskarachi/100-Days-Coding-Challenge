@@ -14,7 +14,7 @@ function albums(artist:string, title:string, track?:number) {
  
   let magicians: string[] = ["Alice", "David", "Chris"];
 
-  function show_magicians(magicians: string[]) {
+  export function show_magicians(magicians: string[]) {
       magicians.forEach(magician => {
           console.log(magician);
       });
