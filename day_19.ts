@@ -18,3 +18,10 @@ console.log(double_number2);
 let mixed_array = [2, "faris", 34, "r", 5, true, undefined, "boss", false];
 let string_array = mixed_array.filter(str=> typeof str=="string")
 console.log(string_array)
+
+// Question 57: Find the Average Grade: Given a list of grades, calculate the average grade.
+
+let grades=[17,21,84,97]
+let average_grade = grades.reduce((total,grade)=>total+grade)/grades.length
+console.log(average_grade)
+
