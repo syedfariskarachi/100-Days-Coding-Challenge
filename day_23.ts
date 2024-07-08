@@ -12,3 +12,10 @@ function multiply_decimals(num1:number,num2:number):number{
 }
 console.log(multiply_decimals(0.23,0.443))
 
+// Question 69: Dividing and Finding the Remainder: Write a function that divides two numbers and returns both the quotient and the remainder. Use an object to return both values.
+function divide_and_remainder(dividend:number,divisor:number){
+    let quotient =Math.floor(dividend/divisor)
+    let remainder =dividend%divisor
+    return {quotient,remainder}
+}
+console.log(divide_and_remainder(2,57))
